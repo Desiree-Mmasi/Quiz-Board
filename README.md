@@ -1,5 +1,7 @@
  Quiz Board
+ By Desiree Mmasi
  This is an application that assits learns gauge their knowledge on JavaScript through a short quiz 29.03.2019
+
    Contributors
 Moringa School
 
@@ -7,8 +9,9 @@ Moringa School
 This is an application that helps young developers gauge their knowledge on what they know about JavaScript through a short question and answer session. At the end of the short quiz they can gauge their knowledge from their score.
 
  Setup/Installation Requirements
-. You can fork the repository from github,https://github.com/Desiree-Mmasi/Quiz-Board.git into your github account 
-. You can also clone it in your terminal either Atom or Visual Studio Code and access it in your local repository
+1. You can fork the repository from github,https://github.com/Desiree-Mmasi/Quiz-Board.git into your github account
+
+2. You can also clone it in your terminal either Atom or Visual Studio Code and access it in your local repository
 
 BDD   
 |BEHAVIOUR                               | INPUT                   | OUPUT                      |
