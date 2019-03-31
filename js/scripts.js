@@ -10,6 +10,8 @@ $(document).ready(function() {
      next= $(this).parents("form: first").data("question") +1;
 
      $("jsquestions").hide();
-     ($)
+     $("#question" + next + "").fadeToggle(1000);
+     process("" + current + "");
+     return false;
     });
 }); 
