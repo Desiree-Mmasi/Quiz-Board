@@ -18,57 +18,60 @@
     <h1>JAVASCRIPT QUIZBOARD</h1>
     </div>
         <div class= "quiz">
-        <form class="jsquestions" id="question1" dataquestion="1">
-            <h2>1.Which one of the following is a company that developed Javascript?</h2>
+        <form id="jsquestions" id="question1" dataquestion="1">
+            <h2 id="quiz">1.Which one of the following is a company that developed Javascript?</h2>
             <ol>
-            <li><input name="question1" type="radio" value="correct">Netscape</li>
-            <li><input name="question1" type="radio" value="wrong">Navigator</li>
-            <li><input name="question1" type="radio" value="wrong">JScript</li>
-            <li><input name="question1" type="radio" value="">Windows</li>
+            <li><input name="questionOne" type="radio" value="correct">Netscape</li>
+            <li><input name="questionOne" type="radio" value="wrong">Navigator</li>
+            <li><input name="questionOne" type="radio" value="wrong">JScript</li>
+            <li><input name="questionOne" type="radio" value="wrong">Windows</li>
             </ol>
         </form>
 
-        <form class="jsquestions" id="question2" dataquestion="2">
-            <h2>2. Which symbol is used in a single comment in Javascript?</h2>
+        <form id="jsquestions" id="question2" dataquestion="2">
+            <h2 id="quiz">2. Which symbol is used in a single comment in Javascript?</h2>
             <ol>
-            <li><input name="question2" type="radio" value="A">//</li>
-            <li><input name="question2" type="radio" value="B">/*</li>
-            <li><input name="question2" type="radio" value="C">*/</li>
-            <li><input name="question2" type="radio" value="D">*</li>
+            <li><input name="questionTwo" type="radio" value="correct">//</li>
+            <li><input name="questionTwo" type="radio" value="wrong">/*</li>
+            <li><input name="questionTwo" type="radio" value="wrong">*/</li>
+            <li><input name="questionTwo" type="radio" value="wrong">*</li>
             </ol>
 
         </form>
-        <form class="jsquestions" id="question3" dataquestion="3">
-            <h3>3. Which one below is a looping structure in Javascript?</h3>
+        <form id="jsquestions" id="question3" dataquestion="3">
+            <h3 id="quiz">3. Which one below is a looping structure in Javascript?</h3>
             <ol>
-            <li><input name="question3" type="radio" value="A">For</li>
-            <li><input name="question3" type="radio" value="B">WhileFor</li>
-            <li><input name="question3" type="radio" value="C">Loops</li>
-            <li><input name="question3" type="radio" value="D">Each</li>
+            <li><input name="questionThree" type="radio" value="correct">For</li>
+            <li><input name="questionThree" type="radio" value="wrong">WhileFor</li>
+            <li><input name="questionThree" type="radio" value="wrong">Loops</li>
+            <li><input name="questionThree" type="radio" value="wrong">Each</li>
             </ol>
         </form>
         
-        <form class="jsquestions" id="question4" dataquestion="4">
-           <h4>4. Which one is a type of Popup box available in Javascript?</h4>
+        <form id="jsquestions" id="question4" dataquestion="4">
+           <h4 id="quiz">4. Which one is a type of Popup box available in Javascript?</h4>
            <ol>
-           <li><input name="question4" type="radio" value="A">Alert</li>
-           <li><input name="question4" type="radio" value="B">Boolean</li>
-           <li><input name="question4" type="radio" value="C">And Confirm</li>
-           <li><input name="question4" type="radio" value="D">String</li>
+           <li><input name="questionFour" type="radio" value="correct">Alert</li>
+           <li><input name="questionFour" type="radio" value="wrong">Boolean</li>
+           <li><input name="questionFour" type="radio" value="wrong">And Confirm</li>
+           <li><input name="questionFour" type="radio" value="wrong">String</li>
            </ol>
         </form>
         
-        <form class="jsquestions" id="question5" dataquestion="5">
-           <h5>5. Which one is a basic group of datatype in Javascript?</h5>
+        <form id="jsquestions" id="question5" dataquestion="5">
+           <h5 id="quiz">5. Which one is a basic group of datatype in Javascript?</h5>
            <ol>
-           <li><input name="question5" type="radio" value="A">Primitive</li>
-           <li><input name="question5" type="radio" value="B">Reference</li>
-           <li><input name="question5" type="radio" value="C">Operator</li>
-           <li><input name="question5" type="radio" value="D">Blur Function</li>
+           <li><input name="questionFive" type="radio" value="correct">Primitive</li>
+           <li><input name="questionFive" type="radio" value="wrong">Reference</li>
+           <li><input name="questionFive" type="radio" value="wrong">Operator</li>
+           <li><input name="questionFive" type="radio" value="wrong">Blur Function</li>
            </ol>
         </form>
     </div>
-        <button class="btn-danger" id="Submit" type="button" name="Button">SUBMIT</button>
+    <div id="answer">
+    <p id="score">Answer:</p>
+    </div>
+  <button class="btn-danger" id="Submit" type="button" name="Button" onClick="check();">SUBMIT</button>
     </div>
     </div>
 </body>
