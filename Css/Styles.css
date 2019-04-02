@@ -1,12 +1,16 @@
-.jsquestions{
+#jsquestions{
     font-family: 'Love Ya Like A Sister', cursive;
     color: black;    
-    font-size: 40px;
+    font-size: 20px;
 }
 .header{
    font-family: 'Fascinate Inline', cursive;
    color: brown;
    text-align: center;
    font-size: 90px;
-
 }
+#quiz{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+    color:purple;
+    }
