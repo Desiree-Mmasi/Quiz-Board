@@ -1,17 +1,29 @@
-$(document).ready(function() {
-    //to hide the questions
-    $(".jsquestions").hide();
+function check() {
+    var questionOne = document.questionOne.value;
+    var questionTwo = document.questionTwo.value;
+    var questionThree = document.questionThree.value;
+    var questionFour = document.questionFour.value;
+    var questionFive = document.questionFive.value;
+    var right = 0;
+    if (questionOne == "correct") {
+        right = right + 20;
+    }
+    if (questionTwo == "correct") {
+        right = right + 20;
+    }
+    if (questionThree == "correct") {
+        right = right + 20;
+    }
+    if (questionFour == "correct") {
+        right = right + 20;
+    }
+    if (questionFive == "correct") {
+        right = right + 20;
+    };
 
-    //to show questions one by one
-    $("#question1").show();
+    document.getElementById("answer").style.visibility="visible";
+    document.getElementById("score").innerHTML="YOU HAVE SCORED:" + right + "%";
+    $(".container")
+    event.preventDefault();
+};
 
-    $(".jsquestions #submit").click(function () {
-     current= $(this).parents("form: first").data("question");
-     next= $(this).parents("form: first").data("question") +1;
-
-     $("jsquestions").hide();
-     $("#question" + next + "").fadeToggle(1000);
-     process("" + current + "");
-     return false;
-    });
-}); 
