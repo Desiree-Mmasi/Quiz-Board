@@ -14,3 +14,6 @@
     font-size: 40px;
     color:purple;
     }
+#answer{
+    visibility: hidden;
+}
