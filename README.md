@@ -3,9 +3,7 @@
  This is an application that assits learners gauge their knowledge on JavaScript through a short quiz. Developed on 29.03.2019
 
 ## Contributors
-
-1. Moringa School
-2. Desiree Mmasi
+1. Desiree Mmasi
 
 ## Description
 This is an application that helps young developers gauge their knowledge on what they know about JavaScript through a short question and answer session. At the end of the short quiz they can gauge their knowledge from their score.
@@ -19,12 +17,12 @@ This is an application that helps young developers gauge their knowledge on what
 
 | BEHAVIOUR                              | INPUT                   | OUPUT                      |
 |----------------------------------------|-------------------------|----------------------------|
-| The user doesn't answer any question   | 0,0,0,0,0               | 0 out of 5                 |
-| The user answers one question          | 1,0,0,0,0               | 1 out of 5                 |
-| The user answers two questions         | 1,2,0,0,0               | 2 out of 5                 |
-| The user answers three questions       | 1,2,3,0,0               | 3 out of 5                 |
-| The user answers four questions        | 1,2,3,4,0               | 4 out of 5                 |
-| The user answers five qustions         | 1,2,3,4,5               | 5 out of 5                 |
+| The user doesn't answer any question   | 0,0,0,0,0               | 0%                         |
+| The user answers one question          | 1,0,0,0,0               | 20%                        |
+| The user answers two questions         | 1,2,0,0,0               | 40%                        |
+| The user answers three questions       | 1,2,3,0,0               | 60%                        |
+| The user answers four questions        | 1,2,3,4,0               | 80%                        |
+| The user answers five qustions         | 1,2,3,4,5               | 100%                       |
 
 ## Known Bugs
 

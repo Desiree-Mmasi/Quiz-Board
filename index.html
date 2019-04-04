@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
@@ -9,70 +10,69 @@
     <link rel="stylesheet" href="Css/Bootstrap.css">
     <script src="js/scripts.js"></script>
     <script src="js/Jquery.js"></script>
-    </head>
+</head>
 
-    <body background="Images/javalove.jpg">
+<body background="Images/javalove.jpg">
     <div class="container">
-    <div class="jumbotron">
-    <div class="header">
-    <h1>JAVASCRIPT QUIZBOARD</h1>
-    </div>
-        <div class= "quiz">
-        <form id="jsquestions" name="questionOne" dataquestion="1">
-            <h2 id="quiz">1.Which one of the following is a company that developed Javascript?</h2>
-            <ol>
-            <li><input name="questionOne" type="radio" value="correct">Netscape</li>
-            <li><input name="questionOne" type="radio" value="wrong">Navigator</li>
-            <li><input name="questionOne" type="radio" value="wrong">JScript</li>
-            <li><input name="questionOne" type="radio" value="wrong">Windows</li>
-            </ol>
-        </form>
+        <div class="jumbotron">
+            <div class="header">
+                <h1>JAVASCRIPT QUIZBOARD</h1>
+            </div>
+            <div class="quiz">
+                <form id="jsquestions" name="jsquestions">
+                    <h2 id="quiz">1.Which one of the following is a company that developed Javascript?</h2>
+                    <ol>
+                        <li><input name="questionOne" type="radio" value="correct">Netscape</li>
+                        <li><input name="questionOne" type="radio" value="wrong">Navigator</li>
+                        <li><input name="questionOne" type="radio" value="wrong">JScript</li>
+                        <li><input name="questionOne" type="radio" value="wrong">Windows</li>
+                    </ol>
 
-        <form id="jsquestions" name="questionTwo" dataquestion="2">
-            <h2 id="quiz">2. Which symbol is used in a single comment in Javascript?</h2>
-            <ol>
-            <li><input name="questionTwo" type="radio" value="correct">//</li>
-            <li><input name="questionTwo" type="radio" value="wrong">/*</li>
-            <li><input name="questionTwo" type="radio" value="wrong">*/</li>
-            <li><input name="questionTwo" type="radio" value="wrong">*</li>
-            </ol>
 
-        </form>
-        <form id="jsquestions" name="questionThree" dataquestion="3">
-            <h3 id="quiz">3. Which one below is a looping structure in Javascript?</h3>
-            <ol>
-            <li><input name="questionThree" type="radio" value="correct">For</li>
-            <li><input name="questionThree" type="radio" value="wrong">WhileFor</li>
-            <li><input name="questionThree" type="radio" value="wrong">Loops</li>
-            <li><input name="questionThree" type="radio" value="wrong">Each</li>
-            </ol>
-        </form>
-        
-        <form id="jsquestions" dataquestion="4" name="questionFour">
-           <h4 id="quiz">4. Which one is a type of Popup box available in Javascript?</h4>
-           <ol>
-           <li><input name="questionFour" type="radio" value="correct">Alert</li>
-           <li><input name="questionFour" type="radio" value="wrong">Boolean</li>
-           <li><input name="questionFour" type="radio" value="wrong">And Confirm</li>
-           <li><input name="questionFour" type="radio" value="wrong">String</li>
-           </ol>
-        </form>
-        
-        <form id="jsquestions"  dataquestion="5" name="questionFive">
-           <h5 id="quiz">5. Which one is a basic group of datatype in Javascript?</h5>
-           <ol>
-           <li><input name="questionFive" type="radio" value="correct">Primitive</li>
-           <li><input name="questionFive" type="radio" value="wrong">Reference</li>
-           <li><input name="questionFive" type="radio" value="wrong">Operator</li>
-           <li><input name="questionFive" type="radio" value="wrong">Blur Function</li>
-           </ol>
-        </form>
-    </div>
-    <div id="answer">
-    <p id="score">Answer:</p>
-    </div>
-  <button class="btn-danger" id="Submit" type="button" name="Button" onClick="check();">SUBMIT</button>
-    </div>
+
+                    <h2 id="quiz">2. Which symbol is used in a single comment in Javascript?</h2>
+                    <ol>
+                        <li><input name="questionTwo" type="radio" value="correct">//</li>
+                        <li><input name="questionTwo" type="radio" value="wrong">/*</li>
+                        <li><input name="questionTwo" type="radio" value="wrong">*/</li>
+                        <li><input name="questionTwo" type="radio" value="wrong">*</li>
+                    </ol>
+
+
+                    <h3 id="quiz">3. Which one below is a looping structure in Javascript?</h3>
+                    <ol>
+                        <li><input name="questionThree" type="radio" value="correct">For</li>
+                        <li><input name="questionThree" type="radio" value="wrong">WhileFor</li>
+                        <li><input name="questionThree" type="radio" value="wrong">Loops</li>
+                        <li><input name="questionThree" type="radio" value="wrong">Each</li>
+                    </ol>
+
+                    <h4 id="quiz">4. Which one is a type of Popup box available in Javascript?</h4>
+                    <ol>
+                        <li><input name="questionFour" type="radio" value="correct">Alert</li>
+                        <li><input name="questionFour" type="radio" value="wrong">Boolean</li>
+                        <li><input name="questionFour" type="radio" value="wrong">And Confirm</li>
+                        <li><input name="questionFour" type="radio" value="wrong">String</li>
+                    </ol>
+
+                    <h5 id="quiz">5. Which one is a basic group of datatype in Javascript?</h5>
+                    <ol>
+                        <li><input name="questionFive" type="radio" value="correct">Primitive</li>
+                        <li><input name="questionFive" type="radio" value="wrong">Reference</li>
+                        <li><input name="questionFive" type="radio" value="wrong">Operator</li>
+                        <li><input name="questionFive" type="radio" value="wrong">Blur Function</li>
+                    </ol>
+
+
+                    <div id="answer">
+                        <p id="score">Answer:</p>
+                    </div>
+                    <input name="Submit" class="btn btn-danger" value="Submit" type="button" id="submit"
+                        onClick="check();">
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
